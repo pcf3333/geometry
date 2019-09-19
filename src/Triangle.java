@@ -1,6 +1,6 @@
 public class Triangle extends Figura {
-    double h;
-    double b;
+    private double h;
+    private double b;
 
     public double area(){
         return (this.b*this.h)/2;
