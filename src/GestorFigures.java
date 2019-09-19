@@ -10,6 +10,6 @@ public class GestorFigures {
     }
 
     public Figura[] sort(Figura[] vec){
-        return Arrays.sort(vec.area());
+        return Arrays.sort(vec);
     }
 }

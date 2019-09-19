@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Quadrat {
+public class Quadrat extends Rectangle{
+    public Quadrat(double l){
+        super(l,l);
+    }
 }

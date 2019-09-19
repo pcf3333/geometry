@@ -1,6 +1,9 @@
 public abstract class Figura implements Comparable<Figura>{
-    piblic int compareto(Figura f){
-        return (this.area()-f.area());
+    public abstract double area();
+
+    public int compareTo(Figura f){
+        Double d=(this.area()-f.area());
+        return d.intValue();
     }
 }
 
