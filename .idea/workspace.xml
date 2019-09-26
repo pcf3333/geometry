@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea5fd567-27d8-4047-9aa1-f5bf33ec15d3" name="Default Changelist" comment="">
+    <list default="true" id="96ad84e7-a99e-4b6b-909c-136d6a1dc84e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/geometry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GestorFigurasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cercle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestorFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Cercle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Figura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/GestorFigures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Quadrat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cercle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Figura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GestorFigures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quadrat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,23 +38,27 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1R3IAvMNjvNqawUxRaJUXml9RCO" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
+  <component name="ProjectId" id="1RNcQmG6cyqSPmAtdDGfgcZsKH2" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,10 +72,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GestorFigures">
     <configuration name="GestorFigures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GestorFigures" />
-      <module name="DSA" />
+      <option name="MAIN_CLASS_NAME" value="edu.upc.eetac.dsa.figuras.GestorFigures" />
+      <module name="geometry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.upc.eetac.dsa.figuras.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestorFigurasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geometry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GestorFigurasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestorFigurasTest.testSuma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geometry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GestorFigurasTest" />
+      <option name="METHOD_NAME" value="testSuma" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,6 +108,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GestorFigures" />
+        <item itemvalue="JUnit.GestorFigurasTest" />
+        <item itemvalue="JUnit.GestorFigurasTest.testSuma" />
       </list>
     </recent_temporary>
   </component>
@@ -67,11 +118,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea5fd567-27d8-4047-9aa1-f5bf33ec15d3" name="Default Changelist" comment="" />
-      <created>1568889214234</created>
+      <changelist id="96ad84e7-a99e-4b6b-909c-136d6a1dc84e" name="Default Changelist" comment="" />
+      <created>1569510980902</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568889214234</updated>
+      <updated>1569510980902</updated>
     </task>
     <servers />
   </component>
@@ -87,16 +138,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GestorFigures.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

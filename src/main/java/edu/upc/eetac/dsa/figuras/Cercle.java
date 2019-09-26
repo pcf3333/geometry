@@ -1,4 +1,4 @@
-import java.lang.Math.*;
+package edu.upc.eetac.dsa.figuras;
 
 public class Cercle extends Figura {
     private double r;

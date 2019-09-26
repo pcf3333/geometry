@@ -1,3 +1,5 @@
+package edu.upc.eetac.dsa.figuras;
+
 public class Triangle extends Figura {
     private double h;
     private double b;

@@ -1,3 +1,5 @@
+package edu.upc.eetac.dsa.figuras;
+
 public class Rectangle extends Figura{
     private double l1;
     private double l2;

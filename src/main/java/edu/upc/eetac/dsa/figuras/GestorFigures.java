@@ -1,7 +1,9 @@
+package edu.upc.eetac.dsa.figuras;
+
 import java.util.Arrays;
 
 public class GestorFigures {
-    static public double suma(Figura[] vec){
+    public static double suma(Figura[] vec){
         double res=0;
         for (Figura f:vec){
             res+= f.area();
@@ -9,7 +11,7 @@ public class GestorFigures {
         return res;
     }
 
-    static public Figura[] sort(Figura[] vec){
+    public static Figura[] sort(Figura[] vec){
 
         Arrays.sort(vec);
         return vec;
@@ -20,8 +22,10 @@ public class GestorFigures {
         Cercle cercle =new Cercle(6);
         Rectangle rectangle=new Rectangle(3,5);
         Figura[] figuras=new Figura[]{quadrat,triangle,cercle,rectangle};
-        System.out.print(GestorFigures.suma(figuras));
+        System.out.println(GestorFigures.suma(figuras));
         Figura[] a= GestorFigures.sort(figuras);
+        System.out.println(Arrays.asList(figuras));
+
 
 
     }
